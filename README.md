@@ -1,4 +1,4 @@
-# elixirChatter
+# elixirChatter : basic project on elixir
 
 to create a new pheonix server :
 -------------------------------
@@ -36,5 +36,17 @@ to run seeds.exs : mix run priv/repo/seeds.exs
 ![GitHub Logo](/images/seed_image.png)
 
 
----------------------
+to fetch data
+-----------------------------------------
+
+1. create a route in router (/get/:status)
+2. create a controller and add the functions u will be calling too
+    (chatter_controller/get)
+3. use render function that has a template (here, getting_message.html)
+4. for that template , we need to create template folder chatter(based      on controller name) and
+     make a file getting_message.html.eex 
+     ( elixir strictly follows name convention)
+    ![GitHub Logo](/images/naming_convention.png)
+
+4. create a chatter_view.ex (follow the naming convention)
 
