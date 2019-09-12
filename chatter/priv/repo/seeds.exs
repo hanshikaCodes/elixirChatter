@@ -9,3 +9,8 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+Chatter.ChatterQueries.create_chat(%{
+  "message" => "the first message",
+  "status" => "unread"
+})
