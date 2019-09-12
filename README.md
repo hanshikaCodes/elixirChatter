@@ -34,7 +34,7 @@ create_chat validates the input with the changeset.
 to run seeds.exs : mix run priv/repo/seeds.exs
 
 ![GitHub Logo](/images/seed_image.png)
-Format: ![Alt Text](url)
+
 
 ---------------------
 
